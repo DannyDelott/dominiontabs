@@ -13,6 +13,8 @@ from reportlab.pdfgen import canvas
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
 
+# RGB between 0 and 1
+FONT_COLOR = [1, 1, 1]
 
 def split(l, n):
     i = 0
@@ -476,7 +478,7 @@ class DividerDrawer(object):
                 preserveAspectRatio=True,
                 mask='auto')
             width += potSize
-
+        self.canvas.setFillColorRGB(*FONT_COLOR)
         return width
 
     def drawSetIcon(self, setImage, x, y):
