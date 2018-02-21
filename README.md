@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/sumpfork/dominiontabs.svg?branch=master)](https://travis-ci.org/sumpfork/dominiontabs)
 
+## Printing
+Mac - Open the PDF in Preview and print at 70% scale.
+
 ## Introduction
 
 This is a script and library to generate card dividers for storing cards for the game [Dominion](https://boardgamegeek.com/boardgame/36218/dominion). If you are just looking go generate some dominion dividers, there is no need to install this script as I host a [live version of this generator code](http://domtabs.sandflea.org). However, if you want to use arguments that I don't expose on that page, or change the code, or contribute to the project the full generation code (not the web interface or the fonts) is included here, and contributions are more than welcome.
